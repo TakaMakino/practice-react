@@ -1,7 +1,10 @@
 import React from "react";
 
 function App() {
-  return <div><h1>HelloWorld</h1></div>;
+  // const greeting = "Hi!!!"
+  // const dom = <h1 className="foo">{greeting}</h1>
+  const dom = <input type="text" onChange={() => console.log("I am cliked.")} />;
+  return dom;
 }
 
 export default App;
